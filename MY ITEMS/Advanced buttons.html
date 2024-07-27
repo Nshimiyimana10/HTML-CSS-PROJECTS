@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My advanced buttons</title>
+        <style>
+            
+        #fieldset{
+            height:700px;
+            width:600px;
+            margin-left: 200px;
+            margin-top: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align:center;
+            background-color:antiquewhite;
+            border-radius:20px;
+            cursor:pointer;
+            border:3px solid grey;
+        
+        }
+        #fname{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+        }
+        #lname{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+
+        }
+        #e-adress{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+
+        }
+        #phone{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+
+        }
+        #gender{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+
+        }
+        #age{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+
+        }
+        #level-of-study{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+
+        }
+        #submit{
+            height:50px;
+            border-radius:10px;
+            border:2px solid black;
+            width:300px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:25px;
+            font-style:bold;
+
+        }
+        #fname:hover {
+            background-color: aqua;
+            color:white;
+            cursor:all-scroll;
+        }
+        #age:hover{
+            background-color: aqua;
+            color:white;
+            cursor:all-scroll;
+
+        }
+        #gender:hover{
+            background-color: aqua;
+            color:white;
+            cursor:all-scroll;
+        }
+        #e-adress:hover{
+            background-color: aqua;
+            color:white;
+            cursor:all-scroll;
+        }
+        #phone:hover{
+            background-color: aqua;
+            color:white;
+            cursor:all-scroll;
+        }
+        #lname:hover{
+            background-color: aqua;
+            color:white;
+            cursor:all-scroll;
+        }
+        #submit:hover{
+            background-color:green;
+            color:white;
+            cursor:all-scroll;
+        }
+        </style>
+    </head>
+    <body>
+        
+        <form id="buttons">
+            <fieldset  id="fieldset">
+            <legend><b>Personal information:</b></legend>
+            <labor for="FName"><b>First Name:</b></labor><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <labor for="LName"><b>Last Name:</b></labor><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <labor for="e-adress"><b>Email Adress:</b></labor><br>
+            <input type="e-adress" id="e-adress" name="e-adress"><br><br>
+            <labor for="phone"><b>Phone Number:</b></labor><br>
+            <input type="text" id="phone" name="phone"><br><br>
+            <labor for="gender"><b>Gender:</b></labor><br>
+            <select id="gender">
+            <option value="male"><b>male</b></option>
+            <option value="female"><b>female</b></option>
+            </select><br><br>
+            <labor for="age"><b>Age:</b></labor><br>
+            <select id="age">
+                <option value="under 10">0-10</option>
+                <option value="below 18">11-18</option>
+                <option value="below 25">18-24</option>
+                <option value="below 30">25-29</option>
+                <option value="below 40">30-39</option>
+                <option value="above 40">40 and above</option>
+            </select><br><br>
+            <labor for="Level of Studies"><b>Level of studies:</b></labor><br>
+            <select id="phone"><br>
+            <option value="high certificate">High studies</option>
+            <option value="vocational studies">Vocational studies</option>
+            <option value="TVET">TVET studies</option>
+            <option value="undergraduate studies"> Undergraduate studies</option>
+            <option value="Post-gratuate">Post-gratuate</option>
+            <option value="Masters">Masters</option>
+            <option value="Phd">Phd</option>
+            </select><br><br>
+            <input type="submit" id="submit" value="Submit"><br><br>
+            </fieldset>
+        </form>
+
+    </body>
+</html>

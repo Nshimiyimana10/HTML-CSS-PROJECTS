@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{box-sizing:border-box;}
+            body{
+                background-color: aquamarine;
+                padding:12px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif
+            }
+            .header{
+                font-size:50px;
+                background-color:yellow;
+                padding:30px;
+            }
+            .header h1{
+                text-align: center;
+                color:black;
+                font-size:50px;
+            }
+            .topnav{
+                background-color: blueviolet;
+                color:white;
+                overflow:hidden;
+            }
+            .topnav a{
+                float:left;
+                display: block;
+                color:white;
+                padding: 15px 17px;
+                text-decoration:none;
+                text-align:center;
+             }
+             .topnav a:hover{
+                background-color: green;
+                color:black;
+             }
+             .left-column{
+                float:left;
+                width:75%;
+             }
+             .right-column{
+                float:left;
+                width:25%;
+             }
+             .fake-image{
+                background-color:grey;
+                width:100%;
+             }
+             .card{
+                background-color: azure;
+                margin-top: 20px;
+                padding:10px;
+             }
+             .row::after {
+                content:"";
+                display:table;
+                clear:both;
+             }
+             .footer{
+                text-align:center;
+                padding:20px;
+                background-color: rgb(138, 108, 165);
+                margin-top:20px;
+             }
+             @media screen and(max-width:800px){
+                .left-column,.right-column{
+                    width:100%;
+                    padding:0;
+                }
+             }
+             @media screen and(max-width:400px){
+                .topnav a{
+                    float:none;
+                    width:100%;
+                }
+             }
+
+             
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>BEAUTIFUL RWANDA</h1>
+            <p style="text-align: center;">Rwanda is a beautiful country nicknamed <strong> "country of Thousand hills"</strong></p>
+        </div>
+        <div class="topnav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">VISIT US</a>
+        </div>
+        <div class="row">
+            <div class="left-column">
+                <div class="card">
+                    <h2>GOOD LAND FEATURES</h2>
+                    <h5>Various landscapes across the country</h5>
+                    <div class="fake-image" style="height:150px;
+                    text-align: center;padding-top: 20px;font-size: 40px;padding-left: 20px;">
+                    <strong>Beautiful tea mountain</strong></div>
+                    <p>Rwanda is surrounded by beautiful landscapes which contributes to the goodlook of this country.</p>
+                    <p>Most of those mountains are attractive to visit because there are some activities which are carried out there.<br>
+                    Many tourists from different continents come over to visit this beautiful country.<br>When we look for example in western province, like in <strong>RUTSIRO</strong> district, there is a big plantation of tea which gives good look to those landscapes.</p>
+                </div>
+                <div class="card">
+                    <h2>MOUNTAIN GORILLAS</h2>
+                    <h5>Gorillas are most attractive in Rwanda</h5>
+                    <div class="fake-image" style="height:100px;
+                    text-align:center;padding-top: 15px;font-size: 25px;"><strong>Beautiful Gorillas</strong>
+                    </div>
+                    <p>In Rwanda,Gorillas are most lovable animals which represent the beauty of the country.</p>
+                    <p>Most tourists come in Rwanda to visit the gorillas.<br>
+                        Every year, the country organize the ceremony called<strong>"KWITA IZINA"</strong>.It is a ceremony which attracts many people allover the world where they are interested in this act of naming the new born of gorillas.
+                    </p>
+                </div>
+                </div>
+                <div class="right-column">
+                    <div class="card">
+                        <h2>RWANDAN TRADITIONAL CULTURE</h2>
+                        <div class="fake-image" style="height:100px;text-align:center;padding-top: 15px;">
+                            <strong> Rwandan Traditional singers&Dancers</strong>
+                        </div>
+                        <p>In Rwanda, singing and dancing is our culture.During different ceremonies, we like to sing and dance in our traditional way and this shows that we,as Rwandans,are strongly bound to our beloved<strong> CULTURE </strong></p>
+                        </div>
+                        <div class="card">
+                            <h3>NATIONAL DEVELOPMENT</h3>
+                            <div class="fake-image" style="height:80px;padding-top: 15px;text-align: center;"><strong>Country development in all sectors</strong></div>
+                            </div>
+                            <div class="card">
+                                <h3>PROUD OF BEING RWANDANS</h3>
+                                <p style="overflow:hidden";>As Rwandans, we are proud of our country<pre>
+                                    We always dream together,work together
+                                    Nothing can separate the unity of us
+                                    <strong>viva RWANDA,viva RWANDANS</strong>
+                                </pre></p>
+                            </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h2>WELCOME TO RWANDA</h2>
+ </div>             
+    </body>
+    </html>
